@@ -64,7 +64,7 @@ Then go to Network Adapter -> Select Custom and choose the same network number y
 
 ### Lab Exercise :&#x20;
 
-#### 1- armitage&#x20;
+#### **1- armitage**&#x20;
 
 First, switch to the root user using `sudo su` (to gain full privileges).\
 &#x20;Then start PostgreSQL using `/etc/init.d/postgresql start` (required for the database). \
@@ -110,7 +110,7 @@ As we can see here, we can interact with the shell to control the target device.
 
 <figure><img src="../.gitbook/assets/image (193).png" alt=""><figcaption></figcaption></figure>
 
-2 - Penetration Testing with Metasploit Rationale
+#### **2 - Penetration Testing with Metasploit Rationale**
 
 &#x20;Start by making sure that both devices are on the same network.&#x20;
 
