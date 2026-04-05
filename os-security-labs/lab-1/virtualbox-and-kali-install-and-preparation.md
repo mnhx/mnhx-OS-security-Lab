@@ -14,7 +14,7 @@ description: Installing VirtualBox & Kali Linux and Ubuntu
 
 Make sure you selected **"VirtualBox Application".**
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### 2- Kali Linux Install :&#x20;
 
@@ -24,11 +24,11 @@ Choose the version that matches your virtualization software (e.g., **VirtualBox
 
 Click the download icon to start downloading the file.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **After extracting the compressed file, you will find two files inside the folder: a .vbox file and a .vdi file.**
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Open VirtualBox and import the Kali Linux virtual machine
 
@@ -101,7 +101,7 @@ After starting the virtual machine, log in using the username `kali` and the pas
 **Note: Ubuntu LTS and the standard Ubuntu versions usually have large file sizes, typically ranging from 5.3 GB to 6.5 GB.**
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 After download, open VirtualBox and import the Ubuntu virtual machine.
 
@@ -111,11 +111,11 @@ Click on Machines ⇒ New
 
 Open the **"ISO Image"** option, select "Other", then choose the ISO image you downloaded.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 make sure you uncheck the "Proceed with Unattended Installation" option.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Write the name of the machine and select:**
 

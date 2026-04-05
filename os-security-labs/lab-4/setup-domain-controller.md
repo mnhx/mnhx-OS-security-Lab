@@ -2,7 +2,7 @@
 
 After finish setup the windows server you will be in this page :&#x20;
 
-1- Installing the AD DS role:
+### **Installing the AD DS role:**
 
 <figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 

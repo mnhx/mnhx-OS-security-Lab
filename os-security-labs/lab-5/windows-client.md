@@ -74,8 +74,18 @@ Paste the Product key and make sure you don't forget the password&#x20;
 
 <figure><img src="../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
 
-where is your Product Key?
+If the activation message appears (usually after one month), click **Ask me later**.
 
-don't need it 🍃🎼
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+Then open **Command Prompt (CMD)** as **Administrator** and run:
+
+```
+slmgr -rearm
+```
+
+This resets the activation grace period and gives you another **30 days**.
+
+> **Note:** You can usually repeat this more than once, for up to **120 days** in total, which should be enough to get through the semester.
 
 </details>
