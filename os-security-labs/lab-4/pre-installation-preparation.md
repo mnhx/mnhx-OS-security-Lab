@@ -56,7 +56,7 @@ Click on the VM -> Settings -> General -> Description
 
 <div><figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure></div>
 
-To solve it: turn off the VM and go to Settings -> System, and make sure the Floppy is selected
+To solve it: turn off the VM and go to Settings -> System, and make sure the **Floppy** is selected
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure></div>
 
