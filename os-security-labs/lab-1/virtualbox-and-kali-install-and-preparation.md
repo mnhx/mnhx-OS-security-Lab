@@ -14,7 +14,7 @@ description: Installing VirtualBox & Kali Linux and Ubuntu
 
 Make sure you selected **"VirtualBox Application".**
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### 2- Kali Linux Install :&#x20;
 
@@ -24,17 +24,17 @@ Choose the version that matches your virtualization software (e.g., **VirtualBox
 
 Click the download icon to start downloading the file.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **After extracting the compressed file, you will find two files inside the folder: a .vbox file and a .vdi file.**
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Open VirtualBox and import the Kali Linux virtual machine
 
 Click on Machines ⇒ New<br>
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Write the name of the machine and select:**
 
@@ -42,7 +42,7 @@ Click on Machines ⇒ New<br>
 * **OS Distribution:** Debian
 * **OS Version:** Debian (64-bit)
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **For specifying virtual hardware:**
 
@@ -53,7 +53,7 @@ Click on Machines ⇒ New<br>
 **Note:** These are the standard requirements for smooth operation of the OS. If you want to allocate more resources, do **not exceed the green bar** in the VirtualBox/VMware settings.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **If you want to change the location where the virtual machine will store its disk, click on the folder/file icon.**
 
@@ -63,19 +63,19 @@ Click on Machines ⇒ New<br>
 **Note:** If you have extended storage, it is recommended to use it for the virtual machine's hard disk.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 After you finish , right click on your machine and press settings.
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Go to **Display** and change Video Memory from 16 to 128 MB.
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Now go to Storage ⇒ Controller: IDE then press this icon.
 
-<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select **"Add"**, then navigate to the folder where you extracted the compressed file and select the Kali Linux .vdi file.&#x20;
 
@@ -101,21 +101,21 @@ After starting the virtual machine, log in using the username `kali` and the pas
 **Note: Ubuntu LTS and the standard Ubuntu versions usually have large file sizes, typically ranging from 5.3 GB to 6.5 GB.**
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 After download, open VirtualBox and import the Ubuntu virtual machine.
 
 Click on Machines ⇒ New
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Open the **"ISO Image"** option, select "Other", then choose the ISO image you downloaded.
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 make sure you uncheck the "Proceed with Unattended Installation" option.
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Write the name of the machine and select:**
 
@@ -123,14 +123,14 @@ make sure you uncheck the "Proceed with Unattended Installation" option.
 * **OS Distribution:** Ubuntu
 * **OS Version:** Ubuntu (64-bit)
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 **For specifying virtual hardware:**
 
 * **Base Memory (RAM): 4 GB is recommended.**
 * **Number of CPUs: 3–4 CPUs are sufficient**
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 **The minimal disk size should be 20 GB.**
 
@@ -143,15 +143,15 @@ Note: The same steps can be used to set up any virtual machine that uses an **IS
 After you finish , right click on your machine and press settings.\
 Go to **Display** and change Video Memory from 16 to 128 MB.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 After starting the virtual machine, choose **"Try or Install Ubuntu"**
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 Choose **"Use wired connection"**
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can skip the Update if you want
 
@@ -201,7 +201,7 @@ Open VirtualBox and import the Metasploitable 2 virtual machine
 
 Click on Machines ⇒ New
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Write the name of the machine and select:**
 
@@ -226,7 +226,7 @@ After you finish , right click on your machine and press settings.
 
 Now go to Storage ⇒ Controller: IDE then press this icon.
 
-<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select **"Add"**, then navigate to the folder where you extracted the compressed file and select the **.vmdk** file.&#x20;
 

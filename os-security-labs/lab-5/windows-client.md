@@ -76,7 +76,7 @@ Paste the Product key and make sure you don't forget the password&#x20;
 
 If the activation message appears (usually after one month), click **Ask me later**.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then open **Command Prompt (CMD)** as **Administrator** and run:
 
