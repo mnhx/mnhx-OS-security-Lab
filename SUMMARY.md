@@ -17,3 +17,4 @@
   * [File and Folder Sharing](os-security-labs/lab-6/file-and-folder-sharing.md)
 * [Lab 9](os-security-labs/lab-9/README.md)
   * [File Permission and Ownership in Linux](os-security-labs/lab-9/file-permission-and-ownership-in-linux.md)
+* [Lab 10](os-security-labs/lab-10.md)

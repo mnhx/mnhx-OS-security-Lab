@@ -1,11 +1,5 @@
 # File Permission and Ownership in Linux
 
-## Lab 9
-
-## File Permission and Ownership in Linux
-
-***
-
 ### Before You Start
 
 Every file in Linux has an **owner**, a **group**, and **permissions** that control who can read, write, or execute it.
