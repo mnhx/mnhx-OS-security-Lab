@@ -5,12 +5,10 @@
 * Understand policies related to accounts in Linux
 * Apply account security policies in Linux platforms
 
-
-
 {% hint style="warning" %}
-Before starting this lab, it is strongly recommended to take a snapshot of the virtual machine.\
-This lab modifies account/PAM policy files, and a small mistake may lock the user account or prevent login.\
-If anything goes wrong, the snapshot allows you to restore the system easily.
+**Before starting this lab, it is strongly recommended to take a snapshot of the virtual machine.**\
+**This lab modifies account/PAM policy files, and a small mistake may lock the user account or prevent login.**\
+**If anything goes wrong, the snapshot allows you to restore the system easily.**
 {% endhint %}
 
 ***
