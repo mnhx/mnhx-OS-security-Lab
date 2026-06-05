@@ -45,7 +45,7 @@ mkdir lab11
 ls -l
 ```
 
-<figure><img src="../.gitbook/assets/image (249).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (250).png" alt="" width="398"><figcaption></figcaption></figure>
 
 > The directory `lab11` is now owned by **root**. You can confirm this with `ls -l`.
 
@@ -59,7 +59,7 @@ Switch back to a normal user, then add the new user.
 sudo adduser adam
 ```
 
-!\[Adding user adam]\(images/adduser\_
+<figure><img src="../.gitbook/assets/image (252).png" alt="" width="400"><figcaption></figcaption></figure>
 
 Follow the prompts to set a password and fill in the details (you can press Enter to skip optional fields).
 
@@ -78,8 +78,8 @@ You should see `adam` listed alongside other users.
 Create a group called `cys504` and add `adam` to it.
 
 ```bash
-sudo addgroup cys504
-sudo usermod -aG cys504 adam
+sudo addgroup cys311
+sudo usermod -aG cys311 adam
 ```
 
 Verify that `adam` is now part of `cys504`:
@@ -88,32 +88,34 @@ Verify that `adam` is now part of `cys504`:
 groups adam
 ```
 
-You should see: `adam : adam cys504`
+You should see: `adam : adam cys311`
 
 You can also double-check by searching the group file:
 
 ```bash
-cat /etc/group | grep cys504
+cat /etc/group | grep cys311
 ```
 
-Expected output: `cys504:x:1006:adam`
+Expected output: `cys311:x:1006:adam`
 
-> Here `cys504` is the group name, `x` is the group password placeholder, `1006` is the Group ID (GID), and `adam` is the member.
+<figure><img src="../.gitbook/assets/image (254).png" alt="" width="456"><figcaption></figcaption></figure>
+
+> Here `cys311` is the group name, `x` is the group password placeholder, `1006` is the Group ID (GID), and `adam` is the member.
 
 ***
 
 #### Step 6 — Change Group Ownership of the Directory
 
-Make `cys504` the owning group of the `lab11` directory.
+Make `cys311` the owning group of the `lab11` directory.
 
 ```bash
-chown -R :cys504 lab11
+chown -R :cys311 lab11
 ls -l
 ```
 
-!\[Changing group ownership]\(images/chown\_cys
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-05 234017 (1).png" alt="" width="483"><figcaption></figcaption></figure>
 
-You should now see `cys504` as the group owner of `lab11`.
+You should now see `cys311` as the group owner of `lab11`.
 
 ***
 
@@ -123,11 +125,11 @@ Switch to user `adam` and navigate into `lab11`, then try to create a file.
 
 ```bash
 su adam
-cd /home/kali2022/lab11
+cd /home/kali/lab11
 touch file1
 ```
 
-!\[Permission denied for adam]\(images/adam\_permi
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-05 235050.png" alt="" width="509"><figcaption></figcaption></figure>
 
 You will see:
 
@@ -148,7 +150,9 @@ su root
 getfacl lab11
 ```
 
-!\[Initial ACL output]\(images/getfa The output will show the default Unix permissions with no extended ACL entries for `adam` yet.
+<figure><img src="../.gitbook/assets/image (256).png" alt="" width="525"><figcaption></figcaption></figure>
+
+&#x20;The output will show the default Unix permissions with no extended ACL entries for `adam` yet.
 
 > `getfacl` → check the current state of the ACL for a file or directory.
 
@@ -159,13 +163,18 @@ getfacl lab11
 From the root shell, use `setfacl` to give `adam` full permissions on `lab11`.
 
 ```bash
-setfacl -m u:adam:rwx /home/kali2022/lab11
+setfacl -m u:adam:rwx /home/kali/lab11
 ```
 
 > **Flag meanings:**
 >
 > * `-m` → modify the ACL
 > * `u:adam:rwx` → give user `adam` read, write, and execute permissions
+> * If it didn't work try :&#x20;
+
+```bash
+setfacl -R -m u:adam:rwx /home/kali/lab11
+```
 
 ***
 
@@ -175,12 +184,12 @@ Switch to `adam` again and try creating the file.
 
 ```bash
 su adam
-cd /home/kali2022/lab11
+cd /home/kali/lab11
 touch file1
 ls -l
 ```
 
-!\[Adam can now create files]\(images/adam\_tou
+<figure><img src="../.gitbook/assets/image (257).png" alt="" width="465"><figcaption></figcaption></figure>
 
 This time it works. You can see `file1` listed with `adam` as the owner.
 
@@ -195,7 +204,7 @@ su root
 getfacl lab11
 ```
 
-!\[Updated ACL with adam]\(images/getfacl You will now see an extra line like:
+<figure><img src="../.gitbook/assets/image (258).png" alt="" width="425"><figcaption></figcaption></figure>
 
 ```
 user:adam:rwx
@@ -213,11 +222,11 @@ Switch to another user (for example, `ahmed`) and try to create a file inside `l
 
 ```bash
 su ahmed
-cd /home/kali2022/lab11
+cd /home/kali/lab11
 touch file2
 ```
 
-!\[Ahmed gets permission denied]\(images/ahmed\_permission
+<figure><img src="../.gitbook/assets/image (259).png" alt="" width="518"><figcaption></figcaption></figure>
 
 You will see:
 
@@ -238,7 +247,7 @@ setfacl -x "adam" lab11
 getfacl lab11
 ```
 
-!\[After removing adam ACL]\(images/getfacl\_after\_remove\_adam.
+<figure><img src="../.gitbook/assets/image (260).png" alt="" width="378"><figcaption></figcaption></figure>
 
 The `user:adam:rwx` line is now gone. Adam no longer has the extra permission.
 
@@ -246,13 +255,14 @@ Confirm that `adam` is blocked again:
 
 ```bash
 su adam
-cd /home/kali2022/lab11
+cd /home/kali/lab11
 touch file3
 ```
 
-```
-touch: cannot touch 'file3': Permission denied
-```
+<figure><img src="../.gitbook/assets/image (261).png" alt="" width="323"><figcaption></figcaption></figure>
+
+<pre><code><strong>touch: cannot touch 'file3': Permission denied
+</strong></code></pre>
 
 ***
 
@@ -265,7 +275,7 @@ setfacl -b lab11
 getfacl lab11
 ```
 
-!\[After removing all ACL]\(images/getfacl\_after\_full\_remove
+<figure><img src="../.gitbook/assets/image (262).png" alt="" width="431"><figcaption></figcaption></figure>
 
 **Before removing all ACL:**
 
@@ -281,7 +291,7 @@ other::r-x
 
 ```
 user::rwx
-group::---
+group::r-x
 other::r-x
 ```
 
