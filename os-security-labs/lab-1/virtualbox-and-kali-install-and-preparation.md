@@ -16,7 +16,7 @@ Make sure you selected **"VirtualBox Application".**
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-### 2- Kali Linux Install :&#x20;
+### 2- Kali Linux Install :
 
 [link:](https://www.kali.org/get-kali/#kali-virtual-machines)
 
@@ -28,7 +28,7 @@ Click the download icon to start downloading the file.
 
 **After extracting the compressed file, you will find two files inside the folder: a .vbox file and a .vdi file.**
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Open VirtualBox and import the Kali Linux virtual machine
 
@@ -77,7 +77,7 @@ Now go to Storage ⇒ Controller: IDE then press this icon.
 
 <figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Select **"Add"**, then navigate to the folder where you extracted the compressed file and select the Kali Linux .vdi file.&#x20;
+Select **"Add"**, then navigate to the folder where you extracted the compressed file and select the Kali Linux .vdi file.
 
 <figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -177,7 +177,7 @@ After setting your username and selecting the time zone, click "Install" to star
 
 ### Additional note:
 
-&#x20;If the system installation process freezes, try repeating the installation without an internet connection. This usually resolves the issue.
+If the system installation process freezes, try repeating the installation without an internet connection. This usually resolves the issue.
 
 <figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
@@ -193,7 +193,7 @@ Click the download icon to start downloading the file.
 
 <figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
-After extracting the compressed file, you will find two files inside the folder:  a **.vmdk** file
+After extracting the compressed file, you will find two files inside the folder: a **.vmdk** file
 
 <figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
@@ -228,7 +228,7 @@ Now go to Storage ⇒ Controller: IDE then press this icon.
 
 <figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Select **"Add"**, then navigate to the folder where you extracted the compressed file and select the **.vmdk** file.&#x20;
+Select **"Add"**, then navigate to the folder where you extracted the compressed file and select the **.vmdk** file.
 
 <figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
@@ -242,13 +242,12 @@ After starting the virtual machine, log in using the username `msfadmin` and the
 
 I recommend using the **Description** feature in VirtualBox and VMware to safe the passwords
 
-**VirtualBox :**&#x20;
+**VirtualBox :**
 
 Click on the VM -> Settings -> General -> Description
 
 <div><figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure></div>
 
-#### VMware :&#x20;
+#### VMware :
 
 <div align="left"><figure><img src="../../.gitbook/assets/Screenshot 2026-02-28 222616.png" alt="" width="257"><figcaption></figcaption></figure></div>
-

@@ -15,29 +15,29 @@ A shared folder is created and access is controlled using both Share permissions
 
 Write the Group name then press "Add" and make the Permission Level as "Read" for the group then press "Share"
 
-<div><figure><img src="../../.gitbook/assets/image (162).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (163).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (99).png" alt="" width="563"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (100).png" alt="" width="473"><figcaption></figcaption></figure></div>
 
 Note: It is possible to assign permissions directly to a user instead of a group. However, using groups is considered best practice. In this lab, the user was added directly to ensure they have "Read/Write" permissions that are higher than other users.
 
-### Additional : <br>
+### Additional :
 
 Check "Advance Sharing" Make sure that the “Share this folder” option is enabled.
 
 <figure><img src="../../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
 
-Also check for "Security" and make sure the Group have it rights permissions&#x20;
+Also check for "Security" and make sure the Group have it rights permissions
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (170).png" alt=""><figcaption></figcaption></figure></div>
 
 ## 2- Accessing the Shared Folder from the Client:
 
-**For Windows 7 and Higher version :**&#x20;
+**For Windows 7 and Higher version :**
 
 Open File Explorer, then navigate to Network. If you see this warning, click on it.
 
 <div><figure><img src="../../.gitbook/assets/image (148).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (149).png" alt=""><figcaption></figcaption></figure></div>
 
-Here you should enter any user inside the server who got admin privilege like `Luffy` in our case or Server Administrator account
+Here you should enter any user inside the server who got admin privilege like `Tom` in our case or Server Administrator account
 
 <figure><img src="../../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
 
@@ -63,13 +63,13 @@ Click on "Choose another network location then write `\\YourServerIP\SharedFolde
 
 </details>
 
-### Test sharing Permissions : &#x20;
+### Test sharing Permissions :
 
-in the server I make this text file with this content&#x20;
+in the server I make this text file with this content
 
 <figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
-I make new user and add it to NetAdmin group that they have permissions for read only and I try to change the text :&#x20;
+I make new user and add it to NetAdmin group that they have permissions for read only and I try to change the text :
 
 <div><figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure></div>
 

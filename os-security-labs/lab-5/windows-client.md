@@ -12,11 +12,11 @@ description: >-
 
 <details>
 
-<summary>Windows 10 Pro: </summary>
+<summary>Windows 10 Pro:</summary>
 
 [Link:](https://www.microsoft.com/en-us/software-download/windows10)
 
-Product key :&#x20;
+Product key :
 
 ```
 RHGJR-N7FVY-Q3B8F-KBQ6V-46YP4
@@ -44,11 +44,11 @@ To make sure the you got the pro edition: search this PC and go to Properties
 
 <summary>Windows XP</summary>
 
-[Link: ](https://archive.org/details/WinXPProSP3x86)
+[Link:](https://archive.org/details/WinXPProSP3x86)
 
 <figure><img src="../../.gitbook/assets/image (29) (1).png" alt=""><figcaption></figcaption></figure>
 
-Product Key:&#x20;
+Product Key:
 
 {% hint style="info" %}
 note: this Product key only work with **Windows XP Professional SP3 x86**
@@ -58,7 +58,7 @@ note: this Product key only work with **Windows XP Professional SP3 x86**
 MRX3F-47B9T-2487J-KWKMF-RPWBY
 ```
 
-Paste the Product key and make sure you don't forget the password&#x20;
+Paste the Product key and make sure you don't forget the password
 
 [\[How store my password?\]](../lab-4/pre-installation-preparation.md#id-2.1-how-to-save-your-password)
 
@@ -76,7 +76,7 @@ Paste the Product key and make sure you don't forget the password&#x20;
 
 If the activation message appears (usually after one month), click **Ask me later**.
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then open **Command Prompt (CMD)** as **Administrator** and run:
 

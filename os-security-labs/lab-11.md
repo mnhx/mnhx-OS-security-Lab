@@ -98,7 +98,7 @@ cat /etc/group | grep cys311
 
 Expected output: `cys311:x:1006:adam`
 
-<figure><img src="../.gitbook/assets/image (254).png" alt="" width="456"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (253).png" alt="" width="456"><figcaption></figcaption></figure>
 
 > Here `cys311` is the group name, `x` is the group password placeholder, `1006` is the Group ID (GID), and `adam` is the member.
 
@@ -113,7 +113,7 @@ chown -R :cys311 lab11
 ls -l
 ```
 
-<figure><img src="../.gitbook/assets/Screenshot 2026-06-05 234017 (1).png" alt="" width="483"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2026-06-05 234017.png" alt="" width="483"><figcaption></figcaption></figure>
 
 You should now see `cys311` as the group owner of `lab11`.
 
@@ -152,7 +152,7 @@ getfacl lab11
 
 <figure><img src="../.gitbook/assets/image (256).png" alt="" width="525"><figcaption></figcaption></figure>
 
-&#x20;The output will show the default Unix permissions with no extended ACL entries for `adam` yet.
+The output will show the default Unix permissions with no extended ACL entries for `adam` yet.
 
 > `getfacl` → check the current state of the ACL for a file or directory.
 
@@ -170,7 +170,7 @@ setfacl -m u:adam:rwx /home/kali/lab11
 >
 > * `-m` → modify the ACL
 > * `u:adam:rwx` → give user `adam` read, write, and execute permissions
-> * If it didn't work try :&#x20;
+> * If it didn't work try :
 
 ```bash
 setfacl -R -m u:adam:rwx /home/kali/lab11
