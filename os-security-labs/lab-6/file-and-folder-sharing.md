@@ -87,7 +87,7 @@ Search for **"Turn Windows features on or off"** then click on it
 
 Enter any user inside the server who got admin privilege if they ask
 
-<figure><img src="../../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (141).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Search for SMB 1.0/CIFS File Sharing Support and Make it on
 
